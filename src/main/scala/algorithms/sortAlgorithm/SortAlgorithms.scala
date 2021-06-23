@@ -1,14 +1,14 @@
-package SortAlg
+package algorithms.sortAlgorithm
 
 import scala.collection.mutable.ArrayBuffer
 
 object SortType extends Enumeration {
-  val BUBBLE = Value("bubble")
-  val SELECTION = Value("selection")
-  val INSERTION = Value("insertion")
-  val SHELL = Value("shell")
-  val MERGE = Value("merge")
-  val QUICK = Value("quick")
+  val BUBBLE: SortType.Value = Value("bubble")
+  val SELECTION: SortType.Value = Value("selection")
+  val INSERTION: SortType.Value = Value("insertion")
+  val SHELL: SortType.Value = Value("shell")
+  val MERGE: SortType.Value = Value("merge")
+  val QUICK: SortType.Value = Value("quick")
 }
 
 object SortAlgorithms {
